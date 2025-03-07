@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# E-Commerce Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an **E-Commerce Portal** designed to manage invoices and products for multiple stores. It includes features like invoice generation, product management, filtering, searching, and optional features like PDF generation and authentication.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### Task 1: Invoice Generation Portal
+- **Store Name**: Display the store name for each invoice.
+- **Order Details**: Show order ID, date, quantity, regular price, deal price, and item total.
+- **Item-wise Tax**: Calculate and display tax for each item.
+- **Grand Total**: Calculate and display the grand total without tax and with tax.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Task 2: Product Management Portal
+- **Product List**: Display all products with details like name, store, and price.
+- **CRUD Operations**: Add, edit, and delete products.
+- **Filtering**: Filter products by store.
+- **Searching**: Search products by name.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Task 3: Optional Features
+- **Date-wise Filtering**: Filter invoices by date range.
+- **PDF Generation**: Generate and download PDFs for invoices.
+- **Item-wise Filtering**: Filter invoices by specific items.
+- **Authentication**: Store owners can log in to manage their store details and invoices.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+- **React.js**: Frontend framework.
+- **React Router**: For routing and navigation.
+- **Axios**: For API interactions (mock data used in this project).
+- **jsPDF**: For generating PDFs.
+- **CSS**: For styling the application.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+- Node.js and npm installed on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/keerthanachowdary21/Store.git
+   cd Store
