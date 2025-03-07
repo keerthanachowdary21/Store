@@ -1,0 +1,110 @@
+/* Container for the product list */
+.product-list {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading for the product list */
+  .product-list h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Search bar and filter dropdown */
+  .product-list input,
+  .product-list select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .product-list select {
+    margin-left: 10px;
+  }
+  
+  /* Individual product item styling */
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-item p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Buttons for edit and delete */
+  .product-item button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .product-item button:first-of-type {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .product-item button:first-of-type:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-item button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .product-item button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .product-list {
+      padding: 10px;
+    }
+  
+    .product-list h1 {
+      font-size: 20px;
+    }
+  
+    .product-list input,
+    .product-list select {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .product-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .product-item p {
+      margin-bottom: 10px;
+    }
+  
+    .product-item button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }

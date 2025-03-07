@@ -1,0 +1,102 @@
+/* Container for the invoice details */
+.invoice-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading for the invoice details */
+  .invoice-detail h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Paragraphs for store name, order ID, and date */
+  .invoice-detail p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Heading for the items section */
+  .invoice-detail h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Individual invoice item styling */
+  .invoice-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+  }
+  
+  .invoice-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Grand total styling */
+  .invoice-detail h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Button for downloading PDF */
+  .invoice-detail button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .invoice-detail button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .invoice-detail {
+      padding: 10px;
+    }
+  
+    .invoice-detail h1 {
+      font-size: 20px;
+    }
+  
+    .invoice-detail p {
+      font-size: 14px;
+    }
+  
+    .invoice-detail h2 {
+      font-size: 18px;
+    }
+  
+    .invoice-detail h3 {
+      font-size: 16px;
+    }
+  
+    .invoice-detail button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }

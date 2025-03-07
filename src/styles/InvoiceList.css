@@ -1,0 +1,58 @@
+/* Container for the invoice list */
+.invoice-list {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading for the invoice list */
+  .invoice-list h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Individual invoice item styling */
+  .invoice-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .invoice-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Link styling inside invoice items */
+  .invoice-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    display: block;
+  }
+  
+  .invoice-item a:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .invoice-list {
+      padding: 10px;
+    }
+  
+    .invoice-list h1 {
+      font-size: 20px;
+    }
+  
+    .invoice-item a {
+      font-size: 14px;
+    }
+  }
